@@ -51,7 +51,7 @@ global allocator with the `alloc` package for example with the `embedded-alloc` 
 ## Installation:
 You can install it with:
 ```shell
-cargo add embedded-cylinder
+cargo add embedded_cylinder
 ```
 ## Contribution:
 If you have any ideas to improve the library create a PR or issue and i will be happy to review it!
