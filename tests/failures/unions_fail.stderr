@@ -1,0 +1,13 @@
+error: Can not run on Unions! Cylinder only works on enums
+ --> tests/failures/unions_fail.rs:6:10
+  |
+6 | #[derive(CylinerBuildU8)]
+  |          ^^^^^^^^^^^^^^
+  |
+  = note: this error originates in the derive macro `CylinerBuildU8` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0601]: `main` function not found in crate `$CRATE`
+  --> tests/failures/unions_fail.rs:10:2
+   |
+10 | }
+   |  ^ consider adding a `main` function to `$DIR/tests/failures/unions_fail.rs`
