@@ -2,7 +2,10 @@
 name = "cylinder"
 version = "0.1.0"
 edition = "2021"
-
+license-file = "LICENSE"
+description = "Cylinder is a library for embedded rust that provides type-safe inter MCU/MPU communication with common protocols like I2C, SPI, and CAN"
+repository = "https://github.com/maxall41/cylinder"
+readme = "README.md"
 [lib]
 proc-macro = true
 
