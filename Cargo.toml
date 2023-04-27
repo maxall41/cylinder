@@ -6,6 +6,12 @@ license-file = "LICENSE"
 description = "Cylinder is a library for embedded rust that provides type-safe inter MCU/MPU communication with common protocols like I2C, SPI, and CAN"
 repository = "https://github.com/maxall41/cylinder"
 readme = "README.md"
+autoexamples = false
+
+[[example]]
+name = "basic_non_embedded"
+path = "examples/non_embedded_basic.rs"
+
 [lib]
 proc-macro = true
 
