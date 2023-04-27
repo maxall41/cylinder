@@ -1,6 +1,6 @@
 /target
 /cylinder-pkg/Cargo.lock
-
+.idea
 
 # Added by cargo
 #

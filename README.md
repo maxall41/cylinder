@@ -12,7 +12,7 @@ commands, conflicts, and other issues with non type-safe communication.
 ---
 ## Table Of Contents:
 1. [Overview](#Overview)
-2. [Usage Across Binaries](#Usage across binaries)
+2. [Usage Across Binaries](#usage-across-binaries)
 2. [Installation](#Installation)
 3. [Examples](#Examples)
 4. [Contribution](#Contribution)
