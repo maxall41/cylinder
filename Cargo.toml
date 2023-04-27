@@ -1,6 +1,6 @@
 [package]
-name = "cylinder"
-version = "0.1.0"
+name = "embedded_cylinder"
+version = "1.0.0"
 edition = "2021"
 license-file = "LICENSE"
 description = "Cylinder is a library for embedded rust that provides type-safe inter MCU/MPU communication with common protocols like I2C, SPI, and CAN"
