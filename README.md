@@ -1,10 +1,14 @@
 # Cylinder
+
+
 Cylinder is an embedded rust library for type-safe inter MCU/MPU communication 
 that supports `#![no_std]`. I created it because handling 
 complex inter-MCU communication without type-safety
 is extremely difficult, but with Cylinder you don't have
 to worry about defining unique `u8` values for 
 commands and conflicts and other issues with non type-safe communication.
+
+
 ---
 ## Table Of Contents:
 1. [Overview](#Overview)
@@ -41,6 +45,8 @@ Note that to allow the usage of `#![no_std]` instead of using the `std:hashmap` 
 hashbrown which is a hasmap library that supports `#![no_std]` so you will need to import `hashbrown` into your code to use the hashmap.
 Note that hashbrown when used in a `#![no_std]` enviroment requires that you configure a 
 global allocator with the `alloc` package for example with the `embedded-alloc` package.
+
+
 ---
 ## Installation:
 You can install it with:
