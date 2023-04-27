@@ -46,6 +46,8 @@ Note that to allow the usage of `#![no_std]` instead of using the `std:hashmap` 
 hashbrown which is a hasmap library that supports `#![no_std]` so you will need to import `hashbrown` into your code to use the hashmap.
 Note that hashbrown when used in a `#![no_std]` enviroment requires that you configure a 
 global allocator with the `alloc` package for example with the `embedded-alloc` package.
+
+
 ---
 ## Examples:
 
