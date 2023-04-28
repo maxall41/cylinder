@@ -1,5 +1,6 @@
 # Cylinder
 
+## ⚠️ Deprecated - Use `[repr(u8)]` instead
 
 Cylinder is an embedded rust library for type-safe inter MCU/MPU communication 
 that supports `#![no_std]`. I created it because handling 
