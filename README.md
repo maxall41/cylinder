@@ -22,7 +22,7 @@ Cylinder allows for
 type-safe communication by providing a procedural macro that runs at build time that 
 you can apply to enum types. e.g:
 ```rust
-use cylinder::CylinerBuildU8;
+use embedded_cylinder::CylinerBuildU8;
 
 #[derive(CylinerBuildU8)]
 enum Test {

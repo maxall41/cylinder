@@ -13,7 +13,7 @@ dependencies = [
 
 [[package]]
 name = "embedded_cylinder"
-version = "1.0.3"
+version = "1.0.4"
 dependencies = [
  "proc-macro-error",
  "proc-macro2",
